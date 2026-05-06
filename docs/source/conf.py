@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'chimefrb-selection'
-copyright = '2025, Kyle McGregor'
+copyright = '2026, Kyle McGregor'
 author = 'Kyle McGregor'
 
 # -- General configuration ---------------------------------------------------
@@ -23,5 +23,5 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
