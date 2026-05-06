@@ -1,0 +1,2 @@
+predictors,order,snr_cut,sidelobe_cut,n,n_detected,loglik,McFadden_R2,CoxSnell_R2,Nagelkerke_R2,Brier,SumSqPearson
+scattering_time,3,12.0,5.0,550319,64171,-195830.36309622423,0.011831753227564357,0.004251663197977429,0.014059728446547423,0.10226522604989702,548596.4545276185

@@ -1,0 +1,2 @@
+predictors,order,snr_cut,sidelobe_cut,n,n_detected,loglik,McFadden_R2,CoxSnell_R2,Nagelkerke_R2,Brier,SumSqPearson,marginalized,cv_brier_mean,cv_brier_std,cv_auc_mean,cv_auc_std,cv_folds
+fluence-scattering_time-width-dm,2,12.0,5.0,550319,64171,-129626.34009286047,0.34590003715537165,0.11711639386776584,0.38728954240848845,0.07457225446717294,339952.30215377634,False,0.07458565137432434,0.00018580854138092125,0.8998816233577557,0.0005862112164849267,5

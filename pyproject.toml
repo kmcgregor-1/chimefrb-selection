@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chimefrb-selection"
+version = "0.1.0"
+description = "Selection function modeling & masks for CHIME/FRB injections"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "Kyle McGregor"}]
+license = {text = "MIT"}
+dependencies = [
+  "numpy>=1.22",
+  "scipy>=1.8",
+  "scikit-learn>=1.0",
+  "matplotlib>=3.5",
+  "click>=8",
+  "h5py>=3.7",
+]
+
+[project.urls]
+Homepage = "https://github.com/CHIMEFRB/chimefrb-selection"
+Issues = "https://github.com/CHIMEFRB/chimefrb-selection/issues"
+
+[tool.setuptools]
+packages = ["chimefrb_selection"]
+include-package-data = true
+
+# Remove one of these; do NOT declare package-data twice.
+[tool.setuptools.package-data]
+chimefrb_selection = ["data/*", "data/**/*"]

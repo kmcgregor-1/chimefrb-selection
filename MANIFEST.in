@@ -1,0 +1,3 @@
+include README.md
+recursive-include chimefrb_selection/data *
+recursive-include examples *.ipynb

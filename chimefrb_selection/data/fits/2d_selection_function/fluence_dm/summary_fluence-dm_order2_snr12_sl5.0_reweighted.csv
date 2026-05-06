@@ -1,0 +1,2 @@
+predictors,order,snr_cut,sidelobe_cut,n,n_detected,loglik,McFadden_R2,CoxSnell_R2,Nagelkerke_R2,Brier,SumSqPearson,marginalized,effective_sample_size,ess_fraction,marginalized_over
+fluence-dm,2,12.0,5.0,550319,64171,-77193.38159988455,0.10370415083214923,0.016098701467987864,0.11112636069755799,0.03322500209096702,3747747.411860171,True,17909.350119750634,0.03254357948708046,scattering_time-width
